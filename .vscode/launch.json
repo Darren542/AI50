@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: degrees.py",
+            "type": "python",
+            "request": "launch",
+            "program": "C:\\Online-Courses\\AI50\\week0\\degrees\\degrees.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["large"],
+            "purpose": ["debug-in-terminal"],
+            "cwd": "C:\\Online-Courses\\AI50\\week0\\degrees"
+        },
+        {
+            "name": "Python: Maze.py",
+            "type": "python",
+            "request": "launch",
+            "program": "C:\\Online-Courses\\AI50\\week0\\Maze\\maze.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["maze2.txt"],
+            "purpose": ["debug-in-terminal"],
+            "cwd": "C:\\Online-Courses\\AI50\\week0\\Maze"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [],
+            "purpose": ["debug-in-terminal"],
+            "cwd": "${fileDirname}"
+        }
+    ]
+}
