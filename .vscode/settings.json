@@ -5,6 +5,7 @@
     "python.formatting.provider": "none",
     "python.linting.enabled": true,
     "python.linting.pylintArgs": [
-        "--extension-pkg-whitelist=pygame,pomegranate,python-constraint,tensorflow",
+        "--extension-pkg-whitelist=pygame,pomegranate,python-constraint,tensorflow,cv2",
+        "--generated-members=cv2.*",
     ]
 }
